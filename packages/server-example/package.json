@@ -1,0 +1,15 @@
+{
+  "name": "@noygal/server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gal Noy",
+  "license": "MIT",
+  "dependencies": {
+    "@noygal/server-common": "^1.0.0",
+    "@noygal/client-example": "^1.0.0"
+  }
+}

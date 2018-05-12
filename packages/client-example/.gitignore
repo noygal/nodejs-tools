@@ -1,2 +1,3 @@
 .cache
 dist
+views/config.js

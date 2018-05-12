@@ -1,5 +1,14 @@
 import React from 'react'
-import App from './src/containers/app'
 const ReactDOM = require('react-dom')
+
+class App extends React.Component {
+  render () {
+    return (
+      <div>
+        Hello world
+      </div>
+    )
+  }
+}
 
 ReactDOM.render(<App />, document.getElementById('root'))
