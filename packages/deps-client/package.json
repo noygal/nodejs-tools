@@ -1,6 +1,6 @@
 {
   "name": "@noygal/deps-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common client dependencies",
   "main": "index.js",
   "scripts": {
