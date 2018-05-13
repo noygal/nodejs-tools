@@ -9,9 +9,8 @@
   "author": "Gal Noy",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "^1.8.1",
+    "swagger-client": "^3.8.3"
   },
   "devDependencies": {}
 }
