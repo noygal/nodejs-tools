@@ -9,8 +9,8 @@
   "author": "Gal Noy",
   "license": "MIT",
   "bin": {
-    "eslint": "./node_modules/.bin/eslint",
-    "tape": "./node_modules/.bin/tape"
+    "eslint": "./node_modules/eslint/bin/eslint",
+    "tape": "./node_modules/tape/bin/tape"
   },
   "dependencies": {
     "babel-eslint": "^8.2.3",
