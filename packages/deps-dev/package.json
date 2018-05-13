@@ -1,6 +1,6 @@
 {
   "name": "@noygal/deps-dev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common dev dependencies",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,6 @@
   },
   "author": "Gal Noy",
   "license": "MIT",
-  "bin": {
-    "eslint": "./node_modules/eslint/bin/eslint",
-    "tape": "./node_modules/tape/bin/tape"
-  },
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
