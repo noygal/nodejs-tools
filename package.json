@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "lerna run test",
+    "publish": "lerna publish --scope='@noygal/deps-dev' --scope='@noygal/deps-client'",
     "deps:clean": "rm -rf packages/*/node_modules",
     "deps:bootstrap": "lerna bootstrap",
     "cb": "npm run deps:clean && npm run deps:bootstrap"
@@ -21,7 +22,8 @@
   "homepage": "https://github.com/noygal/nodejs-tools#readme",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4"
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "swagger-client": "^3.8.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

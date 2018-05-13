@@ -12,7 +12,8 @@
     "@noygal/client-common": "^1.0.0",
     "app": "^0.1.0",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "swagger-client": "^3.8.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3"
