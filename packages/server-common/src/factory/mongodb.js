@@ -8,7 +8,11 @@ const ObjectId = require('mongodb').ObjectId
  *  @param {Object} options.mongodbOptions options mongodb client - http://mongodb.github.io/node-mongodb-native/2.2/api/MongoClient.html
  *  @returns {Promise} - resolved to db
  */
-const create = ({mongoUri, dbName = 'testing', mongodbOptions = {}}) =>
+const create = ({
+  mongoUri = 'mongodb://localhost:27017/testing',
+  dbName = 'testing',
+  mongodbOptions = {}
+}) =>
   MongoClient.connect(mongoUri, {
     validateOptions: true,
     useNewUrlParser: true,
