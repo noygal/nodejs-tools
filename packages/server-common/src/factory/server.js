@@ -21,7 +21,7 @@ const createOpenapiServer = ({
   dependencies = [],
   paths = './src/paths'
 }, openapiOptions = {}) => {
-  openapi.initialize(Object.assign({
+  openapi.initialize({
     app,
     apiDoc: {
       swagger: '2.0',
@@ -32,8 +32,9 @@ const createOpenapiServer = ({
       paths: {}
     },
     dependencies,
-    paths
-  }, openapiOptions))
+    paths,
+    ...openapiOptions
+  })
 
   if (mountDevDocs) {
     app.use(`${basePath}/dev-docs`, swaggerUi.serve, swaggerUi.serve, swaggerUi.setup(null, {

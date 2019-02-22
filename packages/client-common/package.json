@@ -9,7 +9,7 @@
   "author": "Gal Noy",
   "license": "MIT",
   "dependencies": {
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "^1.11.0"
   },
   "devDependencies": {}
 }
